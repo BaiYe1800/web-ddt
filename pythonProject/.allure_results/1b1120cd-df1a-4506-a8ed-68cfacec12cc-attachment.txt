@@ -1,0 +1,6 @@
+INFO     conftest:conftest.py:45 _________开始执行:testcase/test_login.py::test_adduser__________
+INFO     webdriver_helper.driver:logger.py:11 ====== WebDriver manager ======
+INFO     webdriver_helper.driver:logger.py:11 Get LATEST chromedriver version for google-chrome 112.0.5615
+INFO     webdriver_helper.driver:logger.py:11 Driver [C:\Users\BaiYe\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+INFO     webdriver_helper.pom:conftest.py:24 Page init start : LoginPage
+INFO     conftest:conftest.py:49 _________执行结束:testcase/test_login.py::test_adduser__________

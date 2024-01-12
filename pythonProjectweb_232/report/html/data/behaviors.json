@@ -1,0 +1,113 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_admin[---\\u7ba1\\u7406\\u5458\\u5e10\\u53f7\\u4e0d\\u80fd\\u4e3a\\u7a7a]",
+    "uid" : "225e28e674a70d0c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1687786012919,
+      "stop" : 1687786013727,
+      "duration" : 808
+    },
+    "flaky" : false,
+    "parameters" : [ "'管理员帐号不能为空'", "''", "''", "''" ]
+  }, {
+    "name" : "test_admin[admin---\\u7ba1\\u7406\\u5458\\u5bc6\\u7801\\u4e0d\\u80fd\\u4e3a\\u7a7a]",
+    "uid" : "963fa817a304db46",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1687786017092,
+      "stop" : 1687786017827,
+      "duration" : 735
+    },
+    "flaky" : false,
+    "parameters" : [ "'管理员密码不能为空'", "''", "''", "'admin'" ]
+  }, {
+    "name" : "test_admin[admin-msjy123--\\u9a8c\\u8bc1\\u7801\\u4e0d\\u80fd\\u4e3a\\u7a7a]",
+    "uid" : "52a65e22380d57db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1687786021169,
+      "stop" : 1687786021925,
+      "duration" : 756
+    },
+    "flaky" : false,
+    "parameters" : [ "'验证码不能为空'", "''", "'msjy123'", "'admin'" ]
+  }, {
+    "name" : "test_admin[admin-msjy123-666-\\u9a8c\\u8bc1\\u7801\\u9519\\u8bef]",
+    "uid" : "8868aa23d4d2e5d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1687786025297,
+      "stop" : 1687786026712,
+      "duration" : 1415
+    },
+    "flaky" : false,
+    "parameters" : [ "'验证码错误'", "'666'", "'msjy123'", "'admin'" ]
+  }, {
+    "name" : "test_admin[admin2-msjy123-666-\\u9a8c\\u8bc1\\u7801\\u9519\\u8bef2]",
+    "uid" : "ef7d5d8c458137",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1687786044494,
+      "stop" : 1687786045773,
+      "duration" : 1279
+    },
+    "flaky" : false,
+    "parameters" : [ "'验证码错误'", "'666'", "'msjy123'", "'admin2'" ]
+  }, {
+    "name" : "test_admin[admin2-msjy123-666-\\u7ba1\\u7406\\u5458\\u5bc6\\u7801\\u4e0d\\u80fd\\u4e3a\\u7a7a2]",
+    "uid" : "8f820b72b0707129",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1687786049137,
+      "stop" : 1687786050430,
+      "duration" : 1293
+    },
+    "flaky" : true,
+    "parameters" : [ "'管理员密码不能为空'", "'666'", "'msjy123'", "'admin2'" ]
+  }, {
+    "name" : "test_user_deal_ok",
+    "uid" : "b281d9b9ad8438bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1687786050437,
+      "stop" : 1687786050437,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_user_deal_ok2",
+    "uid" : "8633195d37524fc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1687786050438,
+      "stop" : 1687786050438,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_user_deal_fail",
+    "uid" : "923cc9a174de66c9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1687786050440,
+      "stop" : 1687786050440,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

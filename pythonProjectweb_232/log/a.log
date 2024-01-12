@@ -1,0 +1,5 @@
+2023-06-26 21:45:08,410 DEBUG [root] [utils.py(<module>:107)] - 这是一条调试级别的日志
+2023-06-26 21:45:08,410 INFO [root] [utils.py(<module>:108)] - 这是一条信息级别的日志
+2023-06-26 21:45:08,411 WARNING [root] [utils.py(<module>:109)] - 这是一条警告级别的日志
+2023-06-26 21:45:08,411 ERROR [root] [utils.py(<module>:110)] - 这是一条错误级别的日志
+2023-06-26 21:45:08,411 CRITICAL [root] [utils.py(<module>:111)] - 这是一条严重级别的日志

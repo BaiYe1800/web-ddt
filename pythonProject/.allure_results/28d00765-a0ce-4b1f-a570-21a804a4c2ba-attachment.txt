@@ -1,0 +1,2 @@
+INFO     conftest:conftest.py:45 _____开始执行:testcase/test_login.py::test_user_new_address_____
+INFO     conftest:conftest.py:49 _____执行结束:testcase/test_login.py::test_user_new_address_____

@@ -1,0 +1,12 @@
+INFO     2023-07-03 22:04:30 [pytest_result_log:103]  : ---------Start: test_tianqiu3.xlsx::Sheet1::创建新增贷款----------
+INFO     2023-07-03 22:04:30 [selenium.webdriver.common.selenium_manager:73]  : Applicable driver not found; attempting to install with Selenium Manager (Beta)
+WARNING  2023-07-03 22:04:35 [root:32]  : 关键字= frame_enter,关键字的参数信息['/html/frameset/frame[1]']
+WARNING  2023-07-03 22:04:35 [root:32]  : 关键字= click,关键字的参数信息['//*[@id="navs"]/ul/li[2]/a']
+WARNING  2023-07-03 22:04:36 [root:32]  : 关键字= frame_exit,关键字的参数信息[None]
+WARNING  2023-07-03 22:04:36 [root:32]  : 关键字= frame_enter,关键字的参数信息['//*[@id="main-frame"]']
+WARNING  2023-07-03 22:04:36 [root:32]  : 关键字= click,关键字的参数信息['/html/body/div[2]/div[3]/input[1]']
+WARNING  2023-07-03 22:04:37 [root:32]  : 关键字= input,关键字的参数信息['//*[@id="colorpickerField"]', 'f00']
+WARNING  2023-07-03 22:04:37 [root:32]  : 关键字= input,关键字的参数信息['/html/body/div[2]/form/table[1]/tbody/tr[3]/td[2]/input', 'MER202306099527']
+WARNING  2023-07-03 22:04:37 [root:32]  : 关键字= sleep,关键字的参数信息[5]
+INFO     2023-07-03 22:04:42 [pytest_result_log:170]  : test status is PASSED (test_tianqiu3.xlsx::Sheet1::创建新增贷款): 
+INFO     2023-07-03 22:04:42 [pytest_result_log:108]  : ----------End: test_tianqiu3.xlsx::Sheet1::创建新增贷款-----------

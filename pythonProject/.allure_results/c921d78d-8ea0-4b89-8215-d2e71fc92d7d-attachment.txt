@@ -1,0 +1,5 @@
+INFO     conftest:conftest.py:45 开始执行:testcase/test_login.py::test_login[-123456-\u8bf7\u8f93\u5165\u7528\u6237\u540d]
+INFO     webdriver_helper.driver:logger.py:11 ====== WebDriver manager ======
+INFO     webdriver_helper.driver:logger.py:11 Get LATEST chromedriver version for google-chrome 112.0.5615
+INFO     webdriver_helper.driver:logger.py:11 Driver [C:\Users\BaiYe\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+INFO     conftest:conftest.py:49 执行结束:testcase/test_login.py::test_login[-123456-\u8bf7\u8f93\u5165\u7528\u6237\u540d]

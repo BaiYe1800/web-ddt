@@ -1,0 +1,10 @@
+,,,管理员帐号不能为空
+admin,,,管理员密码不能为空
+admin,msjy123,,验证码不能为空
+admin,msjy123,666,验证码错误
+admin2,msjy123,666,验证码错误
+admin2,msjy123,666,管理员密码不能为空
+admin2,msjy123,666,验证码错误
+admin2,msjy123,666,管理员密码不能为空
+admin2,msjy123,666,验证码错误
+admin2,msjy123,666,管理员密码不能为空

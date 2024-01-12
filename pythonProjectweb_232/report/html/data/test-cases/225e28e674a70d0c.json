@@ -1,0 +1,164 @@
+{
+  "uid" : "225e28e674a70d0c",
+  "name" : "test_admin[---\\u7ba1\\u7406\\u5458\\u5e10\\u53f7\\u4e0d\\u80fd\\u4e3a\\u7a7a]",
+  "fullName" : "tests.test_background#test_admin",
+  "historyId" : "a299f8f4ea7757c4b85c4cc1944b0512",
+  "time" : {
+    "start" : 1687786012919,
+    "stop" : 1687786013727,
+    "duration" : 808
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "anonymous_driver",
+    "time" : {
+      "start" : 1687786011556,
+      "stop" : 1687786012917,
+      "duration" : 1361
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试登录页面第一步参数化001",
+      "time" : {
+        "start" : 1687786012919,
+        "stop" : 1687786013727,
+        "duration" : 808
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "测试登录页面第一步参数化002",
+        "time" : {
+          "start" : 1687786012919,
+          "stop" : 1687786013727,
+          "duration" : 808
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "anonymous_driver",
+          "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"375351477cf9d0eecf113c73eb5c31ce\")>"
+        }, {
+          "name" : "username",
+          "value" : "''"
+        }, {
+          "name" : "password",
+          "value" : "''"
+        }, {
+          "name" : "code",
+          "value" : "''"
+        }, {
+          "name" : "assert_msg",
+          "value" : "'管理员帐号不能为空'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "anonymous_driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"375351477cf9d0eecf113c73eb5c31ce\")>"
+      }, {
+        "name" : "username",
+        "value" : "''"
+      }, {
+        "name" : "password",
+        "value" : "''"
+      }, {
+        "name" : "code",
+        "value" : "''"
+      }, {
+        "name" : "assert_msg",
+        "value" : "'管理员帐号不能为空'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "anonymous_driver::0",
+    "time" : {
+      "start" : 1687786013730,
+      "stop" : 1687786013730,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_background"
+  }, {
+    "name" : "host",
+    "value" : "ltq"
+  }, {
+    "name" : "thread",
+    "value" : "11892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_background"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_msg",
+    "value" : "'管理员帐号不能为空'"
+  }, {
+    "name" : "code",
+    "value" : "''"
+  }, {
+    "name" : "password",
+    "value" : "''"
+  }, {
+    "name" : "username",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "225e28e674a70d0c.json",
+  "parameterValues" : [ "'管理员帐号不能为空'", "''", "''", "''" ]
+}

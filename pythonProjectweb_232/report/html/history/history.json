@@ -1,0 +1,177 @@
+{
+  "ef783f1d5ce1e8e55acd2d7d44aaa72a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "963fa817a304db46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1687786017092,
+        "stop" : 1687786017827,
+        "duration" : 735
+      }
+    } ]
+  },
+  "a299f8f4ea7757c4b85c4cc1944b0512" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "225e28e674a70d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1687786012919,
+        "stop" : 1687786013727,
+        "duration" : 808
+      }
+    } ]
+  },
+  "9af10f8adfbaab4a3389a815b27218a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8633195d37524fc1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1687786050438,
+        "stop" : 1687786050438,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4ae7260821ae6f8b2e32461f3a165cd4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b281d9b9ad8438bf",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1687786050437,
+        "stop" : 1687786050437,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3a1344521d934089927df8e547123243" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef7d5d8c458137",
+      "status" : "passed",
+      "time" : {
+        "start" : 1687786044494,
+        "stop" : 1687786045773,
+        "duration" : 1279
+      }
+    } ]
+  },
+  "b5b3620b54d2d4d408bc76a86f6bdcf7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "923cc9a174de66c9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1687786050440,
+        "stop" : 1687786050440,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a07d946839759700ed0a6b0ec8867f80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52a65e22380d57db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1687786021169,
+        "stop" : 1687786021925,
+        "duration" : 756
+      }
+    } ]
+  },
+  "97c390cbd02d76e83af48e69132d3cb0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8868aa23d4d2e5d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1687786025297,
+        "stop" : 1687786026712,
+        "duration" : 1415
+      }
+    } ]
+  },
+  "8e5b6507496d2adf7d807af8eda24e2f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f820b72b0707129",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '验证码错误' == '管理员密码不能为空'\n  - 管理员密码不能为空\n  + 验证码错误",
+      "time" : {
+        "start" : 1687786049137,
+        "stop" : 1687786050430,
+        "duration" : 1293
+      }
+    } ]
+  }
+}

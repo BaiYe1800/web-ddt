@@ -1,0 +1,180 @@
+{
+  "uid" : "ef7d5d8c458137",
+  "name" : "test_admin[admin2-msjy123-666-\\u9a8c\\u8bc1\\u7801\\u9519\\u8bef2]",
+  "fullName" : "tests.test_background#test_admin",
+  "historyId" : "3a1344521d934089927df8e547123243",
+  "time" : {
+    "start" : 1687786044494,
+    "stop" : 1687786045773,
+    "duration" : 1279
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "anonymous_driver",
+    "time" : {
+      "start" : 1687786043199,
+      "stop" : 1687786044492,
+      "duration" : 1293
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试登录页面第一步参数化001",
+      "time" : {
+        "start" : 1687786044494,
+        "stop" : 1687786045773,
+        "duration" : 1279
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "测试登录页面第一步参数化002",
+        "time" : {
+          "start" : 1687786044494,
+          "stop" : 1687786045773,
+          "duration" : 1279
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "anonymous_driver",
+          "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"593f6fe8315bad88b7839fd906746f4c\")>"
+        }, {
+          "name" : "username",
+          "value" : "'admin2'"
+        }, {
+          "name" : "password",
+          "value" : "'msjy123'"
+        }, {
+          "name" : "code",
+          "value" : "'666'"
+        }, {
+          "name" : "assert_msg",
+          "value" : "'验证码错误'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "anonymous_driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"593f6fe8315bad88b7839fd906746f4c\")>"
+      }, {
+        "name" : "username",
+        "value" : "'admin2'"
+      }, {
+        "name" : "password",
+        "value" : "'msjy123'"
+      }, {
+        "name" : "code",
+        "value" : "'666'"
+      }, {
+        "name" : "assert_msg",
+        "value" : "'验证码错误'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "anonymous_driver::0",
+    "time" : {
+      "start" : 1687786045776,
+      "stop" : 1687786045776,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_background"
+  }, {
+    "name" : "host",
+    "value" : "ltq"
+  }, {
+    "name" : "thread",
+    "value" : "11892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_background"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_msg",
+    "value" : "'验证码错误'"
+  }, {
+    "name" : "code",
+    "value" : "'666'"
+  }, {
+    "name" : "password",
+    "value" : "'msjy123'"
+  }, {
+    "name" : "username",
+    "value" : "'admin2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "218e64074fcaf5b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1687786037338,
+        "stop" : 1687786038593,
+        "duration" : 1255
+      }
+    }, {
+      "uid" : "1626925e2e954cca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1687786030068,
+        "stop" : 1687786031342,
+        "duration" : 1274
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef7d5d8c458137.json",
+  "parameterValues" : [ "'验证码错误'", "'666'", "'msjy123'", "'admin2'" ]
+}

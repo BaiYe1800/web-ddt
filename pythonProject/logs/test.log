@@ -1,0 +1,14 @@
+INFO     2023-04-23 17:00:19 [conftest:45]   :
+INFO     2023-04-23 17:00:19 [webdriver_helper.driver:11]   :
+INFO     2023-04-23 17:00:20 [webdriver_helper.driver:11]   :
+INFO     2023-04-23 17:00:29 [webdriver_helper.driver:11]   :
+ERROR    2023-04-23 17:00:34 [conftest:64]   :
+INFO     2023-04-23 17:00:34 [conftest:49]   :
+INFO     2023-04-23 17:00:34 [conftest:45]   :
+INFO     2023-04-23 17:00:34 [webdriver_helper.driver:11]   :
+INFO     2023-04-23 17:00:35 [webdriver_helper.driver:11]   :
+INFO     2023-04-23 17:00:35 [webdriver_helper.driver:11]   :
+INFO     2023-04-23 17:00:42 [webdriver_helper.pom:24]   :
+INFO     2023-04-23 17:00:42 [conftest:49]   :
+INFO     2023-04-23 17:00:42 [conftest:45]   :
+INFO     2023-04-23 17:00:42 [conftest:49]   :

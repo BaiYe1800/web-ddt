@@ -1,0 +1,162 @@
+{
+  "uid" : "1626925e2e954cca",
+  "name" : "test_admin[admin2-msjy123-666-\\u9a8c\\u8bc1\\u7801\\u9519\\u8bef0]",
+  "fullName" : "tests.test_background#test_admin",
+  "historyId" : "3a1344521d934089927df8e547123243",
+  "time" : {
+    "start" : 1687786030068,
+    "stop" : 1687786031342,
+    "duration" : 1274
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "anonymous_driver",
+    "time" : {
+      "start" : 1687786028770,
+      "stop" : 1687786030067,
+      "duration" : 1297
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试登录页面第一步参数化001",
+      "time" : {
+        "start" : 1687786030068,
+        "stop" : 1687786031342,
+        "duration" : 1274
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "测试登录页面第一步参数化002",
+        "time" : {
+          "start" : 1687786030068,
+          "stop" : 1687786031342,
+          "duration" : 1274
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "anonymous_driver",
+          "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"b9379f9c263aecf891d029d3ecc24a7d\")>"
+        }, {
+          "name" : "username",
+          "value" : "'admin2'"
+        }, {
+          "name" : "password",
+          "value" : "'msjy123'"
+        }, {
+          "name" : "code",
+          "value" : "'666'"
+        }, {
+          "name" : "assert_msg",
+          "value" : "'验证码错误'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "anonymous_driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"b9379f9c263aecf891d029d3ecc24a7d\")>"
+      }, {
+        "name" : "username",
+        "value" : "'admin2'"
+      }, {
+        "name" : "password",
+        "value" : "'msjy123'"
+      }, {
+        "name" : "code",
+        "value" : "'666'"
+      }, {
+        "name" : "assert_msg",
+        "value" : "'验证码错误'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "anonymous_driver::0",
+    "time" : {
+      "start" : 1687786031344,
+      "stop" : 1687786031344,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_background"
+  }, {
+    "name" : "host",
+    "value" : "ltq"
+  }, {
+    "name" : "thread",
+    "value" : "11892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_background"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_msg",
+    "value" : "'验证码错误'"
+  }, {
+    "name" : "code",
+    "value" : "'666'"
+  }, {
+    "name" : "password",
+    "value" : "'msjy123'"
+  }, {
+    "name" : "username",
+    "value" : "'admin2'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1626925e2e954cca.json",
+  "parameterValues" : [ "'验证码错误'", "'666'", "'msjy123'", "'admin2'" ]
+}
